@@ -95,7 +95,7 @@ jQuery(function ($, undefined) {
       }
     },
     {
-      greetings: "안녕하세요!",
+      greetings: "need help? type help!",
       name: "js_demo",
       height: 200,
       width: 450,
