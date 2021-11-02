@@ -32,7 +32,11 @@ class Terminal {
 </html>
         `,
         "style.css": "body { color: red; }",
-        "script.js": "alert('next password is 960506');",
+        "script.js": `
+const password = ('b' + 'a' + + 'a' + 'a').toLocaleLowerCase();
+
+alert("password is " + password);
+        `,
       },
     };
   }
